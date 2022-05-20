@@ -4,7 +4,7 @@ Implemented Multiresolution CNN for video classification on the [Sports-1M](http
 
 *Model architecture from [1]*
 
-<img src="https://user-images.githubusercontent.com/51696913/169607219-2fadc2ac-b8e7-4259-b06a-4cdf7854a39f.png" width="500">
+<img src="https://user-images.githubusercontent.com/51696913/169607219-2fadc2ac-b8e7-4259-b06a-4cdf7854a39f.png" width="400">
 
 - Images are resized to 200x200
 - 170x170 crops are randomly sampled
