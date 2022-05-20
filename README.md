@@ -1,6 +1,10 @@
-# Multi-Resolution CNNs for Video Classification
+# Multiresolution CNNs for Video Classification
 
-Implemented Multi-Resolution CNN for video classification on the [Sports-1M](https://cs.stanford.edu/people/karpathy/deepvideo/) dataset based on the architecture given in [1]. The model uses two separate streams – ‘fovea’ and ‘context’ that are responsible for learning features from different scaled-down resolutions, and are concatenated later. This helps in avoiding losing important information while speeding up the training process.
+Implemented Multiresolution CNN for video classification on the [Sports-1M](https://cs.stanford.edu/people/karpathy/deepvideo/) dataset based on the architecture given in [1]. The model uses two separate streams – ‘fovea’ and ‘context’ that are responsible for learning features from different scaled-down resolutions, and are concatenated later. This helps in avoiding losing important information while speeding up the training process.
+
+*Model architecture from [1]*
+
+<img src="https://user-images.githubusercontent.com/51696913/169607219-2fadc2ac-b8e7-4259-b06a-4cdf7854a39f.png" width="500">
 
 - Images are resized to 200x200
 - 170x170 crops are randomly sampled
